@@ -45,7 +45,9 @@
         [self addChild:background];
         [CCTexture2D setDefaultAlphaPixelFormat:kCCTexture2DPixelFormat_Default];
         
-        CCLabelTTF *storyLabel = [CCLabelTTF labelWithString:@"有一天，他起了個大早，\n想要打水給父母親洗臉。 於是來到了井邊..." fontName:@"Helvetica" fontSize:50];
+        CCLabelTTF *storyLabel = [CCLabelTTF labelWithString:@"有一天，他起了個大早，\n想要打水給父母親洗臉。 於是來到了井邊...\n請聰明的小朋友幫幫他吧！" fontName:@"Helvetica" fontSize:50];
+        
+        storyLabel.color = ccc3(200, 0, 0);
         storyLabel.position = ccp(winSize.width/2, winSize.height/9*8);
         [self addChild:storyLabel];
         

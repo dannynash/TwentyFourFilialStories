@@ -9,16 +9,20 @@
 #import "MainMenuScene.h"
 #import "CCBReader.h"
 #import "childWater.h"
+
+#import "childEBook.h"
+
 @implementation MainMenuScene
 - (void) pressedPlay:(id)sender
 {
-    // Load the game scene
-    CCScene* storyMenuScene = [CCBReader sceneWithNodeGraphFromFile:@"storyMenu.ccbi"];
-
-//	[[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[childWater scene] withColor:ccWHITE]];
+    [[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:1.0 scene:[childEBook scene] withColor:ccWHITE]];
     
-    // Go to the game scene
-    [[CCDirector sharedDirector] replaceScene:storyMenuScene];
+//
+//    // Load the game scene
+//    CCScene* storyMenuScene = [CCBReader sceneWithNodeGraphFromFile:@"storyMenu.ccbi"];
+//
+//    // Go to the game scene
+//    [[CCDirector sharedDirector] replaceScene:storyMenuScene];
 }
 
 @end

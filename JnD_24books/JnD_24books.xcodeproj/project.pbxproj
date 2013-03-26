@@ -29,6 +29,13 @@
 		BD7AC23B16F5F77300F570B1 /* child2.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7AC23A16F5F77200F570B1 /* child2.m */; };
 		BD7AC23D16F5FB5900F570B1 /* waterFull.ccbi in Resources */ = {isa = PBXBuildFile; fileRef = BD7AC23C16F5FB5900F570B1 /* waterFull.ccbi */; };
 		BD7AC23F16F8B67100F570B1 /* oldHitWater.png in Resources */ = {isa = PBXBuildFile; fileRef = BD7AC23E16F8B67000F570B1 /* oldHitWater.png */; };
+		BD7AC24216FD4D0500F570B1 /* childEBook.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7AC24116FD4D0500F570B1 /* childEBook.m */; };
+		BD7AC24B16FD4E2600F570B1 /* page1.png in Resources */ = {isa = PBXBuildFile; fileRef = BD7AC24516FD4E2600F570B1 /* page1.png */; };
+		BD7AC24C16FD4E2600F570B1 /* page2.png in Resources */ = {isa = PBXBuildFile; fileRef = BD7AC24616FD4E2600F570B1 /* page2.png */; };
+		BD7AC24D16FD4E2600F570B1 /* page3.png in Resources */ = {isa = PBXBuildFile; fileRef = BD7AC24716FD4E2600F570B1 /* page3.png */; };
+		BD7AC24E16FD4E2600F570B1 /* page4.png in Resources */ = {isa = PBXBuildFile; fileRef = BD7AC24816FD4E2600F570B1 /* page4.png */; };
+		BD7AC24F16FD4E2600F570B1 /* page5.png in Resources */ = {isa = PBXBuildFile; fileRef = BD7AC24916FD4E2600F570B1 /* page5.png */; };
+		BD7AC25016FD4E2600F570B1 /* page6.png in Resources */ = {isa = PBXBuildFile; fileRef = BD7AC24A16FD4E2600F570B1 /* page6.png */; };
 		BDAC358916EF1D1D00623782 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDAC358816EF1D1D00623782 /* QuartzCore.framework */; };
 		BDAC358B16EF1D1D00623782 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDAC358A16EF1D1D00623782 /* OpenGLES.framework */; };
 		BDAC358D16EF1D1D00623782 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDAC358C16EF1D1D00623782 /* OpenAL.framework */; };
@@ -237,6 +244,14 @@
 		BD7AC23A16F5F77200F570B1 /* child2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = child2.m; sourceTree = "<group>"; };
 		BD7AC23C16F5FB5900F570B1 /* waterFull.ccbi */ = {isa = PBXFileReference; lastKnownFileType = file; name = waterFull.ccbi; path = Resources/waterFull.ccbi; sourceTree = "<group>"; };
 		BD7AC23E16F8B67000F570B1 /* oldHitWater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oldHitWater.png; path = Resources/Resource/oldHitWater.png; sourceTree = "<group>"; };
+		BD7AC24016FD4D0500F570B1 /* childEBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = childEBook.h; sourceTree = "<group>"; };
+		BD7AC24116FD4D0500F570B1 /* childEBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = childEBook.m; sourceTree = "<group>"; };
+		BD7AC24516FD4E2600F570B1 /* page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page1.png; sourceTree = "<group>"; };
+		BD7AC24616FD4E2600F570B1 /* page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page2.png; sourceTree = "<group>"; };
+		BD7AC24716FD4E2600F570B1 /* page3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page3.png; sourceTree = "<group>"; };
+		BD7AC24816FD4E2600F570B1 /* page4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page4.png; sourceTree = "<group>"; };
+		BD7AC24916FD4E2600F570B1 /* page5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page5.png; sourceTree = "<group>"; };
+		BD7AC24A16FD4E2600F570B1 /* page6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page6.png; sourceTree = "<group>"; };
 		BDAC358516EF1D1D00623782 /* JnD_24books.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JnD_24books.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDAC358816EF1D1D00623782 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		BDAC358A16EF1D1D00623782 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -612,6 +627,20 @@
 			path = Resources/Resource/DragDropImages;
 			sourceTree = "<group>";
 		};
+		BD7AC24416FD4E2600F570B1 /* childEbook */ = {
+			isa = PBXGroup;
+			children = (
+				BD7AC24516FD4E2600F570B1 /* page1.png */,
+				BD7AC24616FD4E2600F570B1 /* page2.png */,
+				BD7AC24716FD4E2600F570B1 /* page3.png */,
+				BD7AC24816FD4E2600F570B1 /* page4.png */,
+				BD7AC24916FD4E2600F570B1 /* page5.png */,
+				BD7AC24A16FD4E2600F570B1 /* page6.png */,
+			);
+			name = childEbook;
+			path = Resources/Resource/childEbook;
+			sourceTree = "<group>";
+		};
 		BDAC357C16EF1D1D00623782 = {
 			isa = PBXGroup;
 			children = (
@@ -654,6 +683,8 @@
 				BDAC371316EF1D2100623782 /* AppDelegate.m */,
 				BDAC37B816EF220A00623782 /* MainMenuScene.h */,
 				BDAC37B916EF220A00623782 /* MainMenuScene.m */,
+				BD7AC24016FD4D0500F570B1 /* childEBook.h */,
+				BD7AC24116FD4D0500F570B1 /* childEBook.m */,
 				BD7AC1C716F4103700F570B1 /* storyMenu.h */,
 				BD7AC1C816F4103700F570B1 /* storyMenu.m */,
 				BDAC37F516EF388800623782 /* child1.h */,
@@ -682,6 +713,7 @@
 			children = (
 				BD7AC22316F5961E00F570B1 /* DragDropImages */,
 				BDAC384516EF726200623782 /* Bo Peep.mp3 */,
+				BD7AC24416FD4E2600F570B1 /* childEbook */,
 				BD7AC23E16F8B67000F570B1 /* oldHitWater.png */,
 				BD7AC23216F59CBA00F570B1 /* waterHole.png */,
 				BD7AC23016F59B9B00F570B1 /* bucket.png */,
@@ -1282,6 +1314,12 @@
 				BD7AC23316F59CBA00F570B1 /* waterHole.png in Resources */,
 				BD7AC23D16F5FB5900F570B1 /* waterFull.ccbi in Resources */,
 				BD7AC23F16F8B67100F570B1 /* oldHitWater.png in Resources */,
+				BD7AC24B16FD4E2600F570B1 /* page1.png in Resources */,
+				BD7AC24C16FD4E2600F570B1 /* page2.png in Resources */,
+				BD7AC24D16FD4E2600F570B1 /* page3.png in Resources */,
+				BD7AC24E16FD4E2600F570B1 /* page4.png in Resources */,
+				BD7AC24F16FD4E2600F570B1 /* page5.png in Resources */,
+				BD7AC25016FD4E2600F570B1 /* page6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1422,6 +1460,7 @@
 				BD7AC1CE16F4C1F000F570B1 /* childWater.m in Sources */,
 				BD7AC23616F5A62D00F570B1 /* JNDGestureRecognizer.m in Sources */,
 				BD7AC23B16F5F77300F570B1 /* child2.m in Sources */,
+				BD7AC24216FD4D0500F570B1 /* childEBook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
